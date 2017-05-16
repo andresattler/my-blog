@@ -1,5 +1,6 @@
 ---
-date: 12.01.16
+nr: 1
+date: 01.12.16
 title: My first post
 ---
 

@@ -1,5 +1,6 @@
 ---
-date: 12.14.16
+nr: 2
+date: 14.12.16
 title: How to write a simple image gallery
 ---
 

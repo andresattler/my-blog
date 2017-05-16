@@ -11,6 +11,7 @@ class Html extends React.Component {
           <meta name="author" content="Andre Sattler"/>
           <meta name="description" content="This blog is a web development blog of me Andre Sattler a beginning front-end developer who likes challenges and shares his thoughts and experiences on his juorney."/>
           <link rel="stylesheet" href="/blog/css/style.css"/>
+          <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/atom-one-dark.min.css"/>
         </head>
         <body>
           <Template content={this.props}/>
