@@ -5,11 +5,9 @@ class Main extends React.Component {
   render () {
     let content;
     if(this.props.content.articles){
-      const articles = this.props.content.articles.sort( (a,b) => {
-        let date1 = new Date(Date.parse(a.date));
-        let date2 = new Date(Date.parse(b.date));
-        return date2 - date1});
-      content = articles.map(val => (
+      let sortedArticles = this.props.content.articles.sort((a,b) => {
+        return b.nr - a.nr});
+      content = sortedArticles.map(val => (
         <article
           key={val.title}
           >
