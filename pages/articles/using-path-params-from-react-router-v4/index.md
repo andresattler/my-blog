@@ -1,10 +1,10 @@
 ---
 nr: 3
 date: 16.05.17
-title: Using Path Parmas from react-router v4
+title: Using Path Params from react-router v4
 ---
 
-# Using Path Parmas from react-router v4
+# Using Path Params from react-router v4
 
 The rewriting of React Router v4 has brought some useful advancements like the simple use of Path Params. In this article I'll cover what they are and how to use them. At the end I’ll show you how I’ve used Path Params to write a simple picture gallery using Path Params.
 
